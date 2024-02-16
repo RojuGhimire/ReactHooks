@@ -1,15 +1,15 @@
-import React from 'react'
-import './App.css'
-import ClassCounter from './components/ClassCounter'
-import HookCounter from './components/HookCounter'
+import React from 'react';
+import './App.css';
+
+
+import HookCounterFour from './components/HookCounterFour';
 
 function App() {
   return (
-   <div className='App'>
-    <ClassCounter />
-    <HookCounter />
-   </div>
-  )
+    <div className='App'>
+      <HookCounterFour />
+    </div>
+  );
 }
 
-export default App
+export default App;
